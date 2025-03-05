@@ -1,0 +1,22 @@
+body {
+    background: url(./th.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    left: 99px;
+    right: 99px;
+    animation: float 1s linear alternate infinite;
+}
+
+@keyframes float{
+    from {
+        left: -150px;
+    }
+    to {
+        right: 155px;
+    }
+}
